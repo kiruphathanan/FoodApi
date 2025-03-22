@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{  font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#wrapper{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 130px;
+    color: azure;
+}
+#button{
+        width: 100px;
+        height: 50px;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/031/734/305/non_2x/pattern-with-outline-icons-on-a-theme-kitchen-accessories-and-food-food-background-vegetables-seamless-pattern-healthy-eating-free-vector.jpg");
+        color: black;
+        position: absolute;
+        left :900px;
+        font-size: 40px;
+        box-shadow: 50%;
+        border-radius: 40%;
+        border: 2px solid black;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 50%;
+}
+#FOOD,#FOODS{
+    font-size: 40px;
+    line-height: 40px;
+}
+#FOODS,img{
+    margin-top: 10px;
+}
